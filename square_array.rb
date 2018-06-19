@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  newArray = []
+  array.each do |x|
+    newArray.push(x * x)
+  end
+  newArray
 end
